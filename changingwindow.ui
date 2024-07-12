@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChangingWindow</class>
+ <widget class="QMainWindow" name="ChangingWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>654</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>654</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-image : url(:/pages.jpg)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="CardNumlineEdit">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>160</y>
+      <width>341</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+border : 1px solid #C6DEF1;
+border-radius: 7px;
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>16</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>160</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#C6DEF1;</string>
+    </property>
+    <property name="text">
+     <string>Card Number:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>250</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#C6DEF1;</string>
+    </property>
+    <property name="text">
+     <string>New password:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="PWlineEdit">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>250</y>
+      <width>171</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+border : 1px solid #C6DEF1;
+border-radius: 7px;
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>4</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>290</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#C6DEF1;</string>
+    </property>
+    <property name="text">
+     <string>New second password:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="SPWlineEdit">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>290</y>
+      <width>171</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+border : 1px solid #C6DEF1;
+border-radius: 7px;
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="PWcheckBox">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>250</y>
+      <width>21</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="SPWcheckBox">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>290</y>
+      <width>21</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BackButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>31</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Aldhabi</family>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid gray;</string>
+    </property>
+    <property name="text">
+     <string>&lt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OkButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>350</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Ok</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

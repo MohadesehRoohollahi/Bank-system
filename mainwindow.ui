@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>695</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>695</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>695</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>OpenHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/bank.jpg);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="LogInButton">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>300</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#QPushButton{
+color:silver;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Log in</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditPassword">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>250</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+border : 1px solid silver;
+border-radius: 7px;
+}</string>
+    </property>
+    <property name="maxLength">
+     <number>4</number>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditName">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>200</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+border : 1px solid silver;
+border-radius: 7px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>200</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+      <pointsize>15</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#A9BA9D</string>
+    </property>
+    <property name="text">
+     <string>Username:</string>
+    </property>
+    <property name="indent">
+     <number>-1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>250</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+      <pointsize>15</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#A9BA9D</string>
+    </property>
+    <property name="text">
+     <string>Password:</string>
+    </property>
+    <property name="indent">
+     <number>-1</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SignInButton">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>300</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#QPushbutton{
+color:silver;
+}</string>
+    </property>
+    <property name="text">
+     <string>Sign up</string>
+    </property>
+   </widget>
+   <zorder>SignInButton</zorder>
+   <zorder>LogInButton</zorder>
+   <zorder>lineEditPassword</zorder>
+   <zorder>lineEditName</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
